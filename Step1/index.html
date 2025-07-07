@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Signup Form</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+<h2>Signup Form</h2>
+<form id="signupForm" novalidate>
+  <input type="text" name="username" placeholder="Username" required />
+  <div class="error" id="usernameError"></div>
+
+  <input type="email" name="email" placeholder="Email" required />
+  <div class="error" id="emailError"></div>
+
+  <input type="password" name="password" placeholder="Password" required />
+  <div class="error" id="passwordError"></div>
+
+  <input type="password" name="confirmPassword" placeholder="Confirm Password" required />
+  <div class="error" id="confirmPasswordError"></div>
+
+  <button type="submit">Register</button>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
